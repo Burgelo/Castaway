@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231210160043">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<a href=""><img src="img/Logo.svg" alt="Logotip"></a>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" data-goto=".page__hero" class="menu__link link">Home</a></li>
+							<li class="menu__item"><a href="#" data-goto=".page__episodes" class="menu__link link">Episodes</a></li>
+							<li class="menu__item"><a href="#" data-goto=".page__hosts" class="menu__link link">About</a></li>
+							<li class="menu__item"><a href="#" data-goto=".footer" class="menu__link">Contact</a></li>
+						</ul>
+					</nav>
+
+				</div>
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section data-goto="#id.page__hero" class="page__hero hero">
+				<div class="hero__container">
+					<div class="hero__image-ibg">
+						<picture><source srcset="img/hero-image.webp" type="image/webp"><img src="img/hero-image.jpg" alt="Photo"></picture>
+					</div>
+					<div class="hero__content">
+						<div class="hero__name-block">
+							<h1 class="hero__title">Take your podcast to the</h1>
+							<h2 class="hero__subtitle">next<span>level</span></h2>
+						</div>
+						<div class="hero__icons icons-hero">
+							<div class="icons-hero__label">
+								<p>Listen on</p>
+							</div>
+							<ul class="icons-hero__group">
+								<li class="icons-hero__item">
+									<a href="#" class="icons-hero__link">
+										<img src="img/icons/1.svg" alt="Icon">
+									</a>
+								</li>
+								<li class="icons-hero__item">
+									<a href="#" class="icons-hero__link">
+										<img src="img/icons/2.svg" alt="Icon">
+									</a>
+								</li>
+								<li class="icons-hero__item">
+									<a href="#" class="icons-hero__link">
+										<img src="img/icons/3.svg" alt="Icon">
+									</a>
+								</li>
+								<li class="icons-hero__item">
+									<a href="#" class="icons-hero__link">
+										<img src="img/icons/4.svg" alt="Icon">
+									</a>
+								</li>
+								<li class="icons-hero__item">
+									<a href="#" class="icons-hero__link">
+										<img src="img/icons/5.svg" alt="Icon">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__episodes episodes">
+				<div class="episodes__container">
+					<div data-goto="#id.page__episodes" class="episodes__header">
+						<h3 class="episodes__title">Latest episodes</h3>
+						<button data-ripple class="episodes__button button"><span>View all episodes</span></button>
+					</div>
+					<div class="episodes__item item-episodes">
+						<div class="item-episodes__image-ibg">
+							<picture><source srcset="img/episodes/1.webp" type="image/webp"><img src="img/episodes/1.jpg" alt="Photo"></picture>
+						</div>
+						<div class="item-episodes__content">
+							<div class="item-episodes__subsection">
+								<p>Gear</p>
+							</div>
+							<div class="item-episodes__label label">
+								<p>Episode <span>3</span></p>
+							</div>
+							<h3 class="item-episodes__title">Should you get outboard audio gear?</h3>
+							<div class="item-episodes__text text">
+								<p>Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</p>
+							</div>
+							<button class="item-episodes__button button"><span>View Episode Details</span></button>
+						</div>
+					</div>
+					<div class="episodes__item item-episodes">
+						<div class="item-episodes__image-ibg">
+							<picture><source srcset="img/episodes/2.webp" type="image/webp"><img src="img/episodes/2.jpg" alt="Photo"></picture>
+						</div>
+						<div class="item-episodes__content">
+							<div class="item-episodes__subsection">
+								<p>Tips & Tricks</p>
+							</div>
+							<div class="item-episodes__label label">
+								<p>Episode <span>2</span></p>
+							</div>
+							<h3 class="item-episodes__title">Mic tricks to take you to the next level</h3>
+							<div class="item-episodes__text text">
+								<p>Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+							</div>
+							<button class="item-episodes__button button"><span>View Episode Details</span></button>
+						</div>
+					</div>
+					<div class="episodes__item item-episodes">
+						<div class="item-episodes__image-ibg">
+							<picture><source srcset="img/episodes/3.webp" type="image/webp"><img src="img/episodes/3.jpg" alt="Photo"></picture>
+						</div>
+						<div class="item-episodes__content">
+							<div class="item-episodes__subsection">
+								<p>Gear</p>
+							</div>
+							<div class="item-episodes__label label">
+								<p>Episode <span>1</span></p>
+							</div>
+							<h3 class="item-episodes__title">The best microphone under $200</h3>
+							<div class="item-episodes__text text">
+								<p>With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</p>
+							</div>
+							<button class="item-episodes__button button"><span>View Episode Details</span></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section data-goto="#id.page__hosts" class="page__hosts hosts">
+				<div class="hosts__container">
+					<div class="hosts__slider swiper">
+						<div class="hosts__wrapper swiper-wrapper">
+							<!-- slide -->
+							<div class="hosts__slide slide-hosts swiper-slide">
+								<div class="slide-hosts__body">
+									<div class="slide-hosts__content content-hosts">
+										<div class="content-hosts__label label">
+											<p>Meet your host</p>
+										</div>
+										<h3 class="content-hosts__name">Jacob Paulaner</h3>
+										<div class="content-hosts__text text">
+											<p>Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+										</div>
+										<div class="content-hosts__text text">
+											<p>He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+										</div>
+									</div>
+									<div class="slide-hosts__image-ibg">
+										<picture><source srcset="img/host/1.webp" type="image/webp"><img src="img/host/1.jpg" alt="Photo"></picture>
+									</div>
+								</div>
+							</div>
+							<!-- 2-d slide -->
+							<div class="hosts__slide slide-hosts swiper-slide">
+								<div class="slide-hosts__body">
+									<div class="slide-hosts__content content-hosts">
+										<div class="content-hosts__label label">
+											<p>Meet your host</p>
+										</div>
+										<h3 class="content-hosts__name">Jacob Paulaner</h3>
+										<div class="content-hosts__text text">
+											<p>Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
+										</div>
+										<div class="content-hosts__text text">
+											<p>He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
+										</div>
+									</div>
+									<div class="slide-hosts__image-ibg">
+										<picture><source srcset="img/host/1.webp" type="image/webp"><img src="img/host/1.jpg" alt="Photo"></picture>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hosts__control">
+							<button type="button" class="hosts__arrow swiper-button-prev"></button>
+							<button type="button" class="hosts__arrow swiper-button-next"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__subscribe subscribe">
+				<div class="subscribe__container">
+					<div class="subscribe__content">
+						<div class="sabscribe__label label">
+							<p>Email Newsletter</p>
+						</div>
+						<h2 class="subscribe__title">Subscribe for updates</h2>
+					</div>
+					<form action="" class="subscribe__form">
+						<input data-required="name" autocomplete="off" type="text" name="form[]" data-error="Error" placeholder="Name" class="subscribe__input input">
+						<input data-required="email" autocomplete="off" type="email" name="form[]" data-error="Error" placeholder="Email" class="subscribe__input input">
+						<button class="subscribe__button button"><span>Submit</span></button>
+					</form>
+				</div>
+			</section>
+			<div class="page__reviews reviews">
+				<div class="reviews__container">
+					<div class="reviews__cell cell-reviews">
+						<div class="cell-reviews__rating rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">1</div>
+						</div>
+						<div class="cell-reviews__content">
+							<div class="cell-reviews__text">
+								<p>I can’t recommend this podcast enough</p>
+							</div>
+							<div class="cell-reviews__name">
+								<p>Betty Lacey</p>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__cell cell-reviews">
+						<div class="cell-reviews__rating rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">5</div>
+						</div>
+						<div class="cell-reviews__content">
+							<div class="cell-reviews__text">
+								<p>Jacob is the best in the business</p>
+							</div>
+							<div class="cell-reviews__name">
+								<p>Adam Driver</p>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__cell cell-reviews">
+						<div class="cell-reviews__rating rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">4.5</div>
+						</div>
+						<div class="cell-reviews__content">
+							<div class="cell-reviews__text">
+								<p>A wealth of audio knowledge</p>
+							</div>
+							<div class="cell-reviews__name">
+								<p>Marcus Brown</p>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__cell cell-reviews">
+						<div class="cell-reviews__rating rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">5</div>
+						</div>
+						<div class="cell-reviews__content">
+							<div class="cell-reviews__text">
+								<p>Every episode is a gem!</p>
+							</div>
+							<div class="cell-reviews__name">
+								<p>Jessica Knowl</p>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__cell cell-reviews">
+						<div class="cell-reviews__rating rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">4</div>
+						</div>
+						<div class="cell-reviews__content">
+							<div class="cell-reviews__text">
+								<p>Whoa whoa, let me take some notes!</p>
+							</div>
+							<div class="cell-reviews__name">
+								<p>Scott Adams</p>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__cell cell-reviews">
+						<div class="cell-reviews__rating rating rating_set">
+							<div class="rating__body">
+								<div class="rating__active"></div>
+								<div class="rating__items">
+									<input type="radio" class="rating__item" value="1" name="rating">
+									<input type="radio" class="rating__item" value="2" name="rating">
+									<input type="radio" class="rating__item" value="3" name="rating">
+									<input type="radio" class="rating__item" value="4" name="rating">
+									<input type="radio" class="rating__item" value="5" name="rating">
+								</div>
+							</div>
+							<div class="rating__value">4.5</div>
+						</div>
+						<div class="cell-reviews__content">
+							<div class="cell-reviews__text">
+								<p>I’ve upped my game considerably since I started listening</p>
+							</div>
+							<div class="cell-reviews__name">
+								<p>Steven Blast</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer data-goto="#id.footer" class="footer">
+			<div class="footer__container">
+				<div class="footer__column">
+					<div class="footer__logo">
+						<img src="img/Logo-footer.svg" alt="Logo">
+					</div>
+					<div class="footer__social social">
+						<a href="#" class="social__item _icon-Inst"></a>
+						<a href="#" class="social__item _icon-Twitter"></a>
+						<a href="#" class="social__item _icon-F"></a>
+					</div>
+				</div>
+				<div class="footer__menu menu-footer">
+					<ul class="menu-footer__list">
+						<li class="menu-footer__item"><a href="#" data-goto=".page__hero" class="menu-footer__link link">Home</a></li>
+						<li class="menu-footer__item"><a href="#" data-goto=".page__episodes" class="menu-footer__link link">Episodes</a></li>
+						<li class="menu-footer__item"><a href="#" data-goto=".page__hosts" class="menu-footer__link link">About</a></li>
+						<li class="menu-footer__item"><a href="#" data-goto=".footer" class="menu-footer__link link">Contact</a></li>
+					</ul>
+				</div>
+				<div class="footer__section section-footer">
+					<ul class="section-footer__list">
+						<li class="section-footer__item"><a href="#" class="section-footer__link">Style Guide</a></li>
+						<li class="section-footer__item"><a href="#" class="section-footer__link">Instructions</a></li>
+						<li class="section-footer__item"><a href="#" class="section-footer__link">Changelog</a></li>
+						<li class="section-footer__item"><a href="#" class="section-footer__link">Credit</a></li>
+						<li class="section-footer__item"><a href="#" class="section-footer__link">Powered by Webflow</a></li>
+						<li class="section-footer__item"><a href="#" class="section-footer__link">Licenses</a></li>
+					</ul>
+				</div>
+				<div class="footer__icons icons-footer">
+					<div class="icons-footer__item">
+						<a href="#" class="icons-footer__image"><img src="img/icons/1.svg" alt="Icon"></a>
+					</div>
+					<div class="icons-footer__item">
+						<a href="#" class="icons-footer__image"><img src="img/icons/2.svg" alt="Icon"></a>
+					</div>
+					<div class="icons-footer__item">
+						<a href="#" class="icons-footer__image"><img src="img/icons/3.svg" alt="Icon"></a>
+					</div>
+					<div class="icons-footer__item">
+						<a href="#" class="icons-footer__image"><img src="img/icons/4.svg" alt="Icon"></a>
+					</div>
+					<div class="icons-footer__item">
+						<a href="#" class="icons-footer__image"><img src="img/icons/5.svg" alt="Icon"></a>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231210160043"></script>
+</body>
+
+</html>
